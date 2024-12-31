@@ -7,19 +7,22 @@
         {
             "name": "Flutter-Responsive-Admin-Panel-or-Dashboard",
             "request": "launch",
-            "type": "dart"
+            "type": "dart",
+            "args": ["--verbose"]
         },
         {
             "name": "Flutter-Responsive-Admin-Panel-or-Dashboard (profile mode)",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "profile"
+            "flutterMode": "profile",
+            "args": ["--verbose"]
         },
         {
             "name": "Flutter-Responsive-Admin-Panel-or-Dashboard (release mode)",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "release"
+            "flutterMode": "release",
+            "args": ["--verbose"]
         }
     ]
 }
